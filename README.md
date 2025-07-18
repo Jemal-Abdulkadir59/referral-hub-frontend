@@ -33,8 +33,7 @@ General Hospital
 📦 Getting Started
   🛠 Backend Setup
     ## Getting Started
-      git clone https://github.com/yourusername/referral-hub.git
-      cd referral-hub
+      https://github.com/Jemal-Abdulkadir59/referral-hub-backend.git
       npm install
       npm start
 

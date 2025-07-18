@@ -3,16 +3,18 @@
 Referral Hub is a full-stack referral management system connecting health centers and a general hospital. It enables efficient patient referral, tracking, and reporting — ensuring better collaboration across healthcare facilities.
 
 🚀 Tech Stack
-🖥 Backend
+## 🖥 Backend
 Node.js, Express.js, MongoDB, Mongoose, JWT Authentication (Bearer token in headers)
 
-🌐 Frontend
+## 🌐 Frontend
+
 Next.js (JavaScript), axios with Bearer Token Auth, Responsive UI for doctors, nurses, admins, and data clerks
 
-💡 What it Does
+## 💡 What it Does
+
 Health centers refer patients to a general hospital. The hospital team (doctors, nurses, data clerks) manages, tracks, and treats the referrals.
 
-🔄 Referral Workflow
+## 🔄 Referral Workflow
 Health Centers
   Register patients
   Send referral forms to the general hospital

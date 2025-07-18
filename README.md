@@ -15,11 +15,13 @@ Next.js (JavaScript), axios with Bearer Token Auth, Responsive UI for doctors, n
 Health centers refer patients to a general hospital. The hospital team (doctors, nurses, data clerks) manages, tracks, and treats the referrals.
 
 ## 🔄 Referral Workflow
-Health Centers
+Health Centers: 
+
   Register patients
   Send referral forms to the general hospital
 
-General Hospital
+General Hospital: 
+
   View and manage incoming referrals
   Doctors treat referred patients and submit treatment reports
   Referral statuses updated (Pending → Accepted)
@@ -34,11 +36,20 @@ General Hospital
 
 📦 Getting Started
   ## 🛠 Backend Setup
-    ## Getting Started
-      https://github.com/Jemal-Abdulkadir59/referral-hub-backend.git
+      Getting Started
+        https://github.com/Jemal-Abdulkadir59/referral-hub-backend.git
       
-      npm install
-      npm start
+        npm install
+        npm start
+        
+## 💻 Frontend Setup
+  npm install
+  npm run start
+
+## Auth Flow
+On login, a JWT token is issued by the backend.
+Token is stored in local storage or cookie (depending on your strategy).
+All protected routes make API requests using:
 
 First, get hospital-backend-service and run the development server:
 

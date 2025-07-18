@@ -23,7 +23,9 @@ Health Centers:
 General Hospital: 
 
   View and manage incoming referrals
+  
   Doctors treat referred patients and submit treatment reports
+  
   Referral statuses updated (Pending → Accepted)
 
   | Role           | Description                                            |

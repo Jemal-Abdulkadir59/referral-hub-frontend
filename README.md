@@ -46,6 +46,7 @@ General Hospital:
         
 ## 💻 Frontend Setup
   npm install
+  
   npm run start
 
 ## Auth Flow

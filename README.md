@@ -31,7 +31,7 @@ General Hospital
 | **User**       | Health center staff: registers patients, sends referrals |
 
 📦 Getting Started
-  🛠 Backend Setup
+  ## 🛠 Backend Setup
     ## Getting Started
       https://github.com/Jemal-Abdulkadir59/referral-hub-backend.git
       

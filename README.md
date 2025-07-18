@@ -1,8 +1,42 @@
 # Referral Hub!
 
-Next.js
+Referral Hub is a full-stack referral management system connecting health centers and a general hospital. It enables efficient patient referral, tracking, and reporting — ensuring better collaboration across healthcare facilities.
 
-## Getting Started
+🚀 Tech Stack
+🖥 Backend
+Node.js, Express.js, MongoDB, Mongoose, JWT Authentication (Bearer token in headers)
+
+🌐 Frontend
+Next.js (JavaScript), axios with Bearer Token Auth, Responsive UI for doctors, nurses, admins, and data clerks
+
+💡 What it Does
+Health centers refer patients to a general hospital. The hospital team (doctors, nurses, data clerks) manages, tracks, and treats the referrals.
+
+🔄 Referral Workflow
+Health Centers
+  Register patients
+  Send referral forms to the general hospital
+
+General Hospital
+  View and manage incoming referrals
+  Doctors treat referred patients and submit treatment reports
+  Referral statuses updated (Pending → Accepted)
+
+  | Role           | Description                                            |
+| -------------- | -------------------------------------------------------- |
+| **Admin**      | Full access to manage users, roles, and settings         |
+| **Doctor**     | Views referrals, treats patients, writes reports         |
+| **Nurse**      | Prepares data for doctors, updates referral info         |
+| **Data Clerk** | manages referral submissions                             |
+| **User**       | Health center staff: registers patients, sends referrals |
+
+📦 Getting Started
+  🛠 Backend Setup
+    ## Getting Started
+      git clone https://github.com/yourusername/referral-hub.git
+      cd referral-hub
+      npm install
+      npm start
 
 First, get hospital-backend-service and run the development server:
 
